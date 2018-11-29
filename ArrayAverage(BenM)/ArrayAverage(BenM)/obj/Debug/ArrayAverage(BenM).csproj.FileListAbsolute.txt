@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\bin\Debug\ArrayAverage(BenM).exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\bin\Debug\ArrayAverage(BenM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\bin\Debug\ArrayAverage(BenM).pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\obj\Debug\ArrayAverage(BenM).csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\obj\Debug\ArrayAverage_BenM_.Form1.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\obj\Debug\ArrayAverage_BenM_.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\obj\Debug\ArrayAverage(BenM).csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\obj\Debug\ArrayAverage(BenM).exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Motz, Benjamin (s244734)\Unit 5 (Arrays & Lists)\ArrayAverage(BenM)\ArrayAverage(BenM)\obj\Debug\ArrayAverage(BenM).pdb
