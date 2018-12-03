@@ -21,9 +21,20 @@ namespace FindMaxVal_BenM_
     {
         private int GetMaxValue(int[] tmpArrayOfInts)
         {
-            tmpMaxVal;
+            int tmpMaxVal;
 
-            return tmpMaxVal;
+            int maxVal = -1;
+
+            foreach (int value in tmpArrayOfInts)
+            {
+                tmpMaxVal = value;
+                if (tmpMaxVal > maxVal)
+                {
+                    maxVal = tmpMaxVal ;
+                }
+            }
+
+            return maxVal;
         }
 
         public frmFindMaxVal()
@@ -33,14 +44,42 @@ namespace FindMaxVal_BenM_
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            //delcares variables
-            const int MAX_ARRAY_SIZE = 10;
-            const int MAX_RANDOM_NUMB = 500;
-            int[] arrayOfInts = new int[MAX_ARRAY_SIZE];
-            int counter, randNumb, maxVal;
+            //creates max Val
+            const int MAX_VAL = -1;
 
-            //gets max value in array
-            maxVal = GetMaxValue(arrayOfInts);
+            const int MAX_ARRAY_SIZE = 10;
+
+            int displayVal;
+
+            //creates random number generator
+            Random randNumbGen = new Random();
+
+            //clears list box
+            this.lstNumbs.Items.Clear();
+
+            //Creates array
+            int[] arrOfNumbs = new int[MAX_ARRAY_SIZE];
+
+            int randNumb, counter;
+
+            for (counter = 0; counter < MAX_ARRAY_SIZE; counter++)
+            {
+                //generates number
+                randNumb = randNumbGen.Next(1, 500+1);
+
+                //puts it in the array
+                arrOfNumbs[counter] = randNumb;
+
+                //adds numb ot lst box
+                lstNumbs.Items.Add(randNumb);
+
+                //refrehses list box
+                this.Refresh();
+            }
+
+            displayVal = GetMaxValue(arrOfNumbs);
+
+            MessageBox.Show("The max value is: " + displayVal);
         }
     }
 }
