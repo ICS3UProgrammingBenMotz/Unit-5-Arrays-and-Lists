@@ -33,7 +33,7 @@
             this.lblHeight = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.lstNumbers = new System.Windows.Forms.ListBox();
+            this.txtNumbers = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudWidth)).BeginInit();
             this.SuspendLayout();
@@ -80,22 +80,20 @@
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
-            // lstNumbers
+            // txtNumbers
             // 
-            this.lstNumbers.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstNumbers.FormattingEnabled = true;
-            this.lstNumbers.Location = new System.Drawing.Point(25, 136);
-            this.lstNumbers.Name = "lstNumbers";
-            this.lstNumbers.Size = new System.Drawing.Size(331, 173);
-            this.lstNumbers.TabIndex = 5;
-            this.lstNumbers.SelectedIndexChanged += new System.EventHandler(this.lstNumbers_SelectedIndexChanged);
+            this.txtNumbers.Location = new System.Drawing.Point(88, 155);
+            this.txtNumbers.Multiline = true;
+            this.txtNumbers.Name = "txtNumbers";
+            this.txtNumbers.Size = new System.Drawing.Size(230, 155);
+            this.txtNumbers.TabIndex = 5;
             // 
             // frm2DArray
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(408, 322);
-            this.Controls.Add(this.lstNumbers);
+            this.Controls.Add(this.txtNumbers);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblHeight);
@@ -117,7 +115,7 @@
         private System.Windows.Forms.Label lblHeight;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.ListBox lstNumbers;
+        private System.Windows.Forms.TextBox txtNumbers;
     }
 }
 
